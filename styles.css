@@ -1,6 +1,21 @@
-h1 {background-color: #002171; color: white; margin-bottom: 0}
-h2 {color: #1976D2}
-dt {color: #002171}
-nav {background-color: #BBDEFB}
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #002171; 
+    color: white; 
+    margin-bottom: 0;
+    background-image: url(images/sunset.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
 
-.company-name {color: #1976D2}
+h2 {color: #1976D2; font-family: Georgia, 'Times New Roman', Times, serif;}
+h3 {font-family: Georgia, 'Times New Roman', Times, serif; color: #000033}
+dt {color: #002171}
+ul {list-style-image: url(images/marker.gif)}
+nav {background-color: #BBDEFB; font-weight: bold}
+nav a {text-decoration: none}
+body {font-family: Arial, Helvetica, sans-serif}
+footer {text-align: center; font-size: 75%; font-style: italic; font-family: Georgia, 'Times New Roman', Times, serif}
+
+#contact {font-size: 90%}
+.company-name {color: #1976D2; font-weight: bold}
